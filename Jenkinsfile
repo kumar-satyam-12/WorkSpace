@@ -27,5 +27,11 @@ pipeline{
     echo 'Built Successfully'
   }
   }
+
+    stage('Finally Done'){
+      steps{
+        echo 'Added Change'
+      }
   }
+}
 }
